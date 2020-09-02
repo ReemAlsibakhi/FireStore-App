@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.activity.AddCourseActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Add Course"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:text="@string/course_name"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/et_courseName"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="2"
+            android:layout_marginStart="@dimen/margin10"
+            android:background="@drawable/border_edittext"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:text="@string/description"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/et_description"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="2"
+            android:layout_marginStart="@dimen/margin10"
+
+            android:background="@drawable/border_edittext"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/trainer_name"
+            android:textSize="14sp"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/et_trainer_name"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="2"
+            android:layout_marginStart="@dimen/margin10"
+            android:background="@drawable/border_edittext"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:text="@string/hours_number"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/et_hours_num"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="2"
+            android:background="@drawable/border_edittext"
+            android:inputType="number"
+            android:layout_marginStart="@dimen/margin10"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/course_price"
+            android:textSize="14sp"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/et_price"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="2"
+            android:background="@drawable/border_edittext"
+            android:inputType="numberDecimal"
+            android:layout_marginStart="@dimen/margin10"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/center_name"
+            android:textSize="14sp"
+            android:textColor="#000" />
+
+        <Spinner
+            android:id="@+id/sp_center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginStart="@dimen/margin10"
+            android:entries="@array/center_name"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:text="@string/expiry_date"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/expiryDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginStart="@dimen/margin10"
+            android:entries="@array/center_name"
+             />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_add"
+        style="?android:borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/btn_bg"
+        android:gravity="center"
+        android:text="@string/add_course"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+</LinearLayout>

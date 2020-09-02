@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="corner_raduis">7dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="size_12">12sp</dimen>
+    <dimen name="size_title">18sp</dimen>
+    <dimen name="raduis_corner">10dp</dimen>
+    <dimen name="height_content">250dp</dimen>
+    <dimen name="height_title">100dp</dimen>
+    <dimen name="start_hour">3dp</dimen>
+    <dimen name="bottom_btn">10dp</dimen>
+    <dimen name="padding_tvhour">8dp</dimen>
+    <dimen name="mstart32">32dp</dimen>
+    <dimen name="margin10">10dp</dimen>
+
+</resources>

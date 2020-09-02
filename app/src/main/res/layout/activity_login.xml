@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_gravity="center_horizontal"
+    tools:context=".ui.activity.LoginActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.33" />
+
+    <TextView
+        android:id="@+id/tv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorAccent"
+        android:textSize="@dimen/text_size"
+        android:text="@string/join_us"
+        android:paddingTop="@dimen/margin_16"
+        android:textColor="@color/colorWhite"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="341dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/mstart32"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="@dimen/mstart32"
+        android:background="@drawable/btn_bgwhite"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_bg">
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/border_edittext"
+            android:drawableStart="@drawable/ic_user_tie"
+            android:drawablePadding="16dp"
+            android:hint="@string/email_username"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textSize="14sp" />
+        <!--        </com.tasomaniac.widget.EmailAutoCompleteLayout>-->
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_edittext"
+            android:drawableStart="@drawable/ic_unlock_alt"
+            android:drawablePadding="16dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_edittext"
+            android:drawableStart="@drawable/ic_phone"
+            android:drawablePadding="16dp"
+            android:hint="@string/phone"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_join"
+            style="?android:borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/join_us"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:layout_marginStart="@dimen/mstart32"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:textSize="16dp" />
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/signup"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center_horizontal"-->
+        <!--            android:layout_marginTop="30dp"-->
+        <!--            android:layout_marginBottom="30dp"-->
+        <!--            android:drawableStart="@drawable/ic_smile_wink"-->
+        <!--            android:drawablePadding="10dp"-->
+        <!--            android:text="Sign Up" />-->
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

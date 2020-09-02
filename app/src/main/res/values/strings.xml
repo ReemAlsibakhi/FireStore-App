@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Training Centers</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="course_name">Course Name</string>
+    <string name="description">Description</string>
+    <string name="trainer_name">Trainer Name</string>
+    <string name="hours_number">Hours Num</string>
+    <string name="course_price">Course Price</string>
+    <string name="center_name">Center Name</string>
+    <string name="add_course">Add Course</string>
+    <string name="price">Price: $</string>
+    <string-array name="center_name">
+        <item>Gaza Sky Geeks</item>
+        <item>GGateway</item>
+        <item>Vision Plus</item>
+        <item>Computer land</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="hours">hour</string>
+    <string name="log_in">Join Us</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="join_us">Join us</string>
+    <string name="email_username">Email/Username</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+</resources>

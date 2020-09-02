@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "676243661903",
+    "firebase_url": "https://training-centers.firebaseio.com",
+    "project_id": "training-centers",
+    "storage_bucket": "training-centers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676243661903:android:f96912fb36dbbfa892763a",
+        "android_client_info": {
+          "package_name": "com.r.firestoreproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676243661903-3km0nnd7cv3lplpqvqrnk443b0s0qqvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNZVp29eekCHNIz6mCrpEoUM_eKNGae4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676243661903-3km0nnd7cv3lplpqvqrnk443b0s0qqvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
