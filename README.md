@@ -3,3 +3,6 @@ An application for training centers that displays all the centers on the map and
 
 
 ![centers_admin](https://user-images.githubusercontent.com/37079395/101890753-2f607480-3bb2-11eb-9fea-6ad25279ca18.png)
+
+![centers_training](https://user-images.githubusercontent.com/37079395/101891185-be6d8c80-3bb2-11eb-838a-77c38263ce54.jpg)
+
